@@ -7,6 +7,8 @@ import {Route, Routes} from 'react-router-dom'
 import Product from './modules/Product';
 import Products from './modules/Products';
 import CategoryProduct from './modules/CategoryProduct';
+import About from './components/About';
+import Contact from './components/Contact';
 
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
 <Route  path='/products/:id' element={<Product />}/>
 <Route path='products' element={<Products />}/>
 <Route path='/categories/:name' element={<CategoryProduct/>}/>
+<Route path='/about' element={<About/>}/>
+<Route path='/contact' element={<Contact/>}/>
 <Route  path='*' element={<div>404</div>}/>
 </Routes>
 <Footer />

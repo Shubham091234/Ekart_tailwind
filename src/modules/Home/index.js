@@ -28,8 +28,8 @@ const Home = ()=>{
 
 <Hero />
 <Categories />
-<div class="flex flex-col text-center w-full">
-      <h2 class="text-4xl text-black tracking-widest font-medium title-font mb-1">Most Selling Products</h2>
+<div className="flex flex-col text-center w-full">
+      <h2 className="text-4xl text-black tracking-widest font-medium title-font mb-1">Most Selling Products</h2>
     
     </div>
 {  products.length > 0 ? 

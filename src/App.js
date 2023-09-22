@@ -23,7 +23,7 @@ function App() {
 <Route path='/categories/:name' element={<CategoryProduct/>}/>
 <Route path='/about' element={<About/>}/>
 <Route path='/contact' element={<Contact/>}/>
-<Route  path='*' element={<div>404</div>}/>
+<Route  path='*' element={<Home />}/>
 </Routes>
 <Footer />
 </>

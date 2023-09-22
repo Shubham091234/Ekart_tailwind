@@ -25,8 +25,8 @@ return(
     
     <Categories />
   
-    <div class="flex flex-col text-center w-full">
-      <h2 class="text-4xl text-indigo-500 tracking-widest font-medium title-font mb-1">All PRODUCTS</h2>
+    <div className="flex flex-col text-center w-full">
+      <h2 className="text-4xl text-indigo-500 tracking-widest font-medium title-font mb-1">All PRODUCTS</h2>
      
     </div>
 
